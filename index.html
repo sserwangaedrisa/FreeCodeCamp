@@ -47,11 +47,14 @@
         <h2>Cat Form</h2>
         <form action="https://freecatphotoapp.com/submit-cat-photo">
           <fieldset>
+            <!-- A legend is used to tell the user about what the field set is about -->
             <legend>Is your cat an indoor or outdoor cat?</legend>
+            <!-- A label is used to make the radio button described for the user -->
             <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
             <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
           </fieldset>
-          <fieldset>
+          <!-- fieldset is used to make a section of the page that has related items -->
+          <fieldset>  
             <legend>What's your cat's personality?</legend>
             <input id="loving" type="checkbox" name="personality" value="loving" checked> <label for="loving">Loving</label>
             <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
@@ -62,6 +65,10 @@
         </form>
       </section>
     </main>
+
+    <!-- This section if used to note info about the developer, copyrights related to the 
+     page and many more 
+      -->
     <footer>
       <p>
         No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a>
